@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KeepNotes</title>
+    <script
+      src="https://kit.fontawesome.com/59af6d52a9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="heading"><i class="far fa-sticky-note"></i> Keep Notes</div>
+    <div class="cta" id="add">
+      <span>Add Note</span>
+      <svg width="13px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </div>
+    <label
+      class="switch"
+      onclick="{body.style.backgroundColor='white'?'black':'white'}"
+    >
+      <input type="checkbox" />
+      <span class="slider round"></span>
+    </label>
+    <div class="container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
